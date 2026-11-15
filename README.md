@@ -6,7 +6,9 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,50:92FE9D,100:00C9FF&height=200&section=header&text=LucidSc1pt&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Code%20%E2%80%A2%20Create%20%E2%80%A2%20Conquer&descAlignY=60&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,50:92FE9D,100:00C9FF&height=200&section=header&text=LucidSc1pt&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Coder&descAlignY=60&descAlign=50" width="100%"/>
+
+Create and Modify something that has never been thought of before.
 
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
@@ -82,14 +84,6 @@ hobbies:
 
 ---
 
-📈 Contribution Graph
-
-<div align="center">
-<img src="https://github-stats-extended.vercel.app/graph?username=LucidSc1pt&theme=dark&bg_color=0D1117&color=00C9FF&line=92FE9D&point=FFFFFF&hide_border=true" width="100%" />
-</div>
-
----
-
 🌐 Connect With Me
 
 <div align="center">
@@ -132,7 +126,4 @@ hobbies:
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,50:92FE9D,100:00C9FF&height=120&section=footer&animation=twinkling" width="100%"/>
 
 ✨ Thanks for visiting! ✨
-
-⭐ Jika kamu suka project-project saya, jangan lupa kasih star ya! ⭐
-
 </div>
