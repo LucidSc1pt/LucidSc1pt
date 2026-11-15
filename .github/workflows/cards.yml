@@ -1,7 +1,7 @@
 name: Generate Profile Cards
 on:
   schedule:
-    - cron: "0 0 * * *" # Berjalan otomatis setiap hari
+    - cron: "0 0 * * *" # Jalan otomatis tiap hari
   workflow_dispatch: # Bisa dijalankan manual
 
 jobs:
@@ -10,7 +10,10 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }} # Pakai PAT biar bisa push
 
       - name: Generate Stats Card
         uses: readme-tools/github-readme-stats-action@v1
@@ -18,7 +21,7 @@ jobs:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&icon_color=92FE9D
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Generate Top Languages Card
         uses: readme-tools/github-readme-stats-action@v1
@@ -26,13 +29,13 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Generate Trophy Card
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: ${{ github.repository_owner }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
           file: profile/trophy.svg
           theme: tokyonight
           max-rows: 1
