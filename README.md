@@ -61,8 +61,10 @@ hobbies:
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=LucidSc1pt&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00C9FF&icon_color=92FE9D&text_color=ffffff"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucidSc1pt&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&text_color=ffffff"/>
+<div align="center">
+  <img height="180em" src="./profile/stats.svg" alt="GitHub Stats" />
+  <img height="180em" src="./profile/top-langs.svg" alt="Top Languages" />
+</div>
 
 <br/>
 
@@ -75,7 +77,7 @@ hobbies:
 🏆 GitHub Trophies
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=LucidSc1pt&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&column=7" />
+  <img src="./profile/trophy.svg" alt="GitHub Trophies" />
 </div>
 
 ---
@@ -91,7 +93,7 @@ hobbies:
 📈 Contribution Graph
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=LucidSc1pt&theme=dark&bg_color=0D1117&color=00C9FF&line=92FE9D&point=FFFFFF&hide_border=true" width="100%"/>
+<img src="https://github-stats-extended.vercel.app/graph?username=LucidSc1pt&theme=tokyonight&bg_color=0D1117&color=00C9FF&line=92FE9D&point=FFFFFF&hide_border=true" width="100%" />
 </div>
 
 ---
