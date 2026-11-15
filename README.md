@@ -8,7 +8,7 @@
 <!-- Animated Header -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,50:92FE9D,100:00C9FF&height=200&section=header&text=LucidSc1pt&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Coder&descAlignY=60&descAlign=50" width="100%"/>
 
-Create and Modify something that has never been thought of before.
+Make or Modify something to make it good.
 
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
@@ -45,15 +45,15 @@ hobbies:
 
 💻 Languages
 
-<img src="https://skillicons.dev/icons?i=js,java,html,css,lua,luau&theme=dark" />
+<img src="https://skillicons.dev/icons?i=js,html,css,lua&theme=dark" />
 
 ⚙️ Frameworks & Libraries
 
 <img src="https://skillicons.dev/icons?i=tailwind&theme=dark" />
 
-🗄️ Databases & Tools
+🗄️ Databases, Hosting & Tools
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,supabase,firebase&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github,supabase,firebase,vercel,vscode&theme=dark" />
 
 </div>
 
@@ -63,10 +63,8 @@ hobbies:
 
 <div align="center">
 
-<div align="center">
-  <img height="180em" src="./profile/stats.svg" alt="GitHub Stats" />
-  <img height="180em" src="./profile/top-langs.svg" alt="Top Languages" />
-</div>
+<img height="180em" src="./profile/stats.svg" alt="GitHub Stats" />
+<img height="180em" src="./profile/top-langs.svg" alt="Top Languages" />
 
 <br/>
 
@@ -103,7 +101,7 @@ hobbies:
 </div>
 
 ---
-
+<!--
 ☕ Support Me
 
 <div align="center">
@@ -118,7 +116,7 @@ hobbies:
 </div>
 
 ---
-
+-->
 <div align="center">
 
 <!-- Animated Footer -->
