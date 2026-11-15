@@ -125,3 +125,7 @@ hobbies:
 
 ✨ Thanks for visiting! ✨
 </div>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/LucidSc1pt/LucidSc1pt/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%"/>
+</div>
