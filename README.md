@@ -82,18 +82,10 @@ hobbies:
 
 ---
 
-🐍 Contribution Snake
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/LucidSc1pt/LucidSc1pt/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%"/>
-</div>
-
----
-
 📈 Contribution Graph
 
 <div align="center">
-<img src="https://github-stats-extended.vercel.app/graph?username=LucidSc1pt&theme=tokyonight&bg_color=0D1117&color=00C9FF&line=92FE9D&point=FFFFFF&hide_border=true" width="100%" />
+<img src="https://github-stats-extended.vercel.app/graph?username=LucidSc1pt&theme=dark&bg_color=0D1117&color=00C9FF&line=92FE9D&point=FFFFFF&hide_border=true" width="100%" />
 </div>
 
 ---
@@ -144,48 +136,3 @@ hobbies:
 ⭐ Jika kamu suka project-project saya, jangan lupa kasih star ya! ⭐
 
 </div>
-```
-
----
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Generate Snake SVG
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: LucidSc1pt
-          outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-linkedin.com/in/username Link LinkedIn kamu
-instagram.com/username Username Instagram kamu
-email@example.com Email kamu
-discord.com/users/username Discord ID kamu
-saweria.co/username Link Saweria kamu
-ko-fi.com/username Link Ko-fi kamu
-
----
